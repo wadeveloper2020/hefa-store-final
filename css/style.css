@@ -1,0 +1,151 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: #171717;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item .nav-link {
+  color: white !important;
+}
+
+.nav-link span {
+  color:#F9B234;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.nav-item.active .nav-link {
+  color: #F9B234 !important;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.carousel {
+  background-color: #171717;
+  color: #fff;
+  height: 450px;
+  margin-top: 20px;
+}
+
+.carousel h1 {
+  font-family: 'Lora';
+  font-size: 48px;
+}
+
+.featured h3, .designer h3, .similar-product h3, .checkout h3, .checkout-success-modal h3, .categories h3 {
+  font-family: 'Lora' !important;
+  font-weight: bold;
+  color: #1B2690;
+}
+
+.featured p, .designer p, .similar-product p, .checkout p, .checkout-success-modal p, .categories p {
+  color: #B7B7B7 !important;
+}
+
+.designer figure, .designer figure img {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img-link {
+  position:absolute;
+  top:0;
+  bottom:8px;
+  left:0;
+  right:0;
+  background-color:rgba(0, 0, 0, 0.7);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover .figure-img-link {
+  opacity: 1;
+}
+
+/* Single Page */
+.product-thumbnail-container {
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  margin: auto;
+  width: 360px;
+  transform:translateY(-55px);
+}
+
+.btn-cart {
+  background-color: #F9B234;
+  width: 300px;
+  font-weight: 600;
+}
+
+.btn-wishlist {
+  background-color: #F6F7FB;
+  width: 300px;
+  font-weight: 500;
+  color: #ADADAD;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+  .product-thumbnail-container {
+    width: 240px;
+    padding: 6px;
+    transform:translateY(-42px);
+  }
+
+  .product-thumbnail-container img {
+    width: 52px;
+  }
+
+ }
+
+
+ /* Product Description */
+ .product-description {
+   height: 350px;
+   background-color: #F6F7FB;
+ }
+
+ .product-description .nav .nav-item .nav-link {
+  color: #171717 !important;
+ }
+
+ .product-description .tab-content {
+   border: 1px solid #dee2e6;
+   border-top: 0;
+   height: 350px;
+   overflow: scroll;
+ }
+
+ .product-description .tab-content p {
+   color: #868686;
+   line-height: 1.8em;
+ }
+
+ .product-review {
+   font-size: .8em;
+ }
+
+ /* Similar Product */
+ .similar-product {
+   margin-top: 100px;
+ }
+
+
+ /* Checkout */
+ .checkout-detail {
+   border: 1px solid #EAEAEA;
+   background-color: #F6F7FB;
+   color: #171717;
+ }
